@@ -33,6 +33,7 @@ jobs:
     - name: Install node_modules
       run: |
         yarn install --frozen-lockfile
+        chmod +x ./android/gradlew
 
     - name: Build for detox
       run: |
