@@ -1,5 +1,6 @@
 describe('Example', () => {
   beforeEach(async () => {
+    await device.launchApp();
     await device.reloadReactNative();
   });
 
